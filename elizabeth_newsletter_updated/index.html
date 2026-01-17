@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Where You Live | Elizabeth Jeanty</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="newsletter-header">
+        <div class="header-content">
+            <h1 class="main-title">Love Where You Live</h1>
+            <div class="divider-gold"><i class="fas fa-heart"></i></div>
+            <p class="sub-title">Celebrate February with lifestyle, community, and the perfect space for your future</p>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <img src="asset_home.png" alt="Tropical Luxury Miami Home" class="hero-img">
+        <div class="hero-overlay">
+            <h2>The February Edition</h2>
+        </div>
+    </section>
+
+    <!-- About Elizabeth Section -->
+    <section class="about-section">
+        <div class="about-container">
+            <h3 class="section-heading">About Elizabeth Jeanty</h3>
+            <p class="about-text">Elizabeth Jeanty is a South Florida real estate professional passionate about helping
+                clients build lasting wealth through smart property investments. Serving North Miami and Fort
+                Lauderdale, she blends market expertise with cultural insight, guiding individuals and families to homes
+                that reflect their lifestyle, vision, and aspirations. With a genuine commitment to her community,
+                Elizabeth empowers her clients to create spaces where memories, growth, and dreams thrive.</p>
+        </div>
+    </section>
+
+    <!-- Section 1: Neighborhood Spotlight -->
+    <section class="content-section">
+        <h3 class="section-heading">Neighborhood Spotlight</h3>
+        <div class="grid-2-col">
+            <div class="spotlight-card">
+                <h4>North Miami</h4>
+                <p>A vibrant tapestry of culture and waterfront living. Experience the eclectic MOCA plaza, authentic
+                    Caribbean cuisine, and tree-lined boulevards.</p>
+                <span class="highlight-text">Experience the lifestyle you deserve</span>
+            </div>
+            <div class="spotlight-card">
+                <h4>Fort Lauderdale</h4>
+                <p>The Venice of America calls. From Las Olas luxury shopping to quiet canal-front estates, discover a
+                    balance of cosmopolitan energy and refined relaxation.</p>
+                <span class="highlight-text">Waterfront elegance awaiting you</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Quote -->
+    <section class="quote-section">
+        <blockquote>
+            “Love is not only in the heart, but in the space where your life grows.”
+        </blockquote>
+    </section>
+
+    <!-- Section 3: Featured Property -->
+    <section class="property-showcase">
+        <div class="property-img-wrapper">
+            <img src="asset_home.png" alt="Luxury Miami Home">
+        </div>
+        <div class="property-details">
+            <h3>The Modern Sanctuary</h3>
+            <p>Why it’s perfect for life and love: This architectural masterpiece offers seamless indoor-outdoor living,
+                perfect for entertaining family or quiet evenings by the pool. A true canvas for your legacy.</p>
+            <ul class="property-features">
+                <li><i class="fas fa-check"></i> Expansive Open Floor Plan</li>
+                <li><i class="fas fa-check"></i> Private Tropical Oasis</li>
+                <li><i class="fas fa-check"></i> Smart Home Technology</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Section 4: Interactive Generator -->
+    <section class="generator-section">
+        <div class="generator-card">
+            <div class="generator-header">
+                <h3><i class="fas fa-compass"></i> Neighborhood & Lifestyle Snapshot</h3>
+                <p>Discover where your future belongs.</p>
+            </div>
+            <form class="generator-form"
+                onsubmit="event.preventDefault(); alert('This is a demo. In the live version, this would generate your custom report!');">
+                <div class="form-group">
+                    <label>Preferred Area</label>
+                    <select class="form-input">
+                        <option>North Miami</option>
+                        <option>Fort Lauderdale</option>
+                        <option>Miami Shores</option>
+                        <option>Aventura</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Budget Range</label>
+                    <select class="form-input">
+                        <option>$750k - $1M</option>
+                        <option>$1M - $2.5M</option>
+                        <option>$2.5M+</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Top Priority</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox"> Schools</label>
+                        <label><input type="checkbox"> Nightlife/Dining</label>
+                        <label><input type="checkbox"> Waterfront</label>
+                        <label><input type="checkbox"> Community/Culture</label>
+                    </div>
+                </div>
+                <button type="submit" class="btn-generate">Get My Snapshot</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- NEW: Lifestyle of South Florida Section -->
+    <section class="lifestyle-section">
+        <h3 class="section-heading">The South Florida Lifestyle</h3>
+        <div class="lifestyle-content">
+            <p class="lifestyle-intro">Where every day feels like a vacation. South Florida offers an unmatched blend of
+                tropical beauty, world-class dining, and year-round sunshine. From morning yoga on the beach to sunset
+                cocktails overlooking the Intracoastal, this is the lifestyle you've been dreaming of.</p>
+            <div class="lifestyle-grid">
+                <div class="lifestyle-card">
+                    <i class="fas fa-sun icon-gold"></i>
+                    <h4>Endless Summer</h4>
+                    <p>330 days of sunshine annually</p>
+                </div>
+                <div class="lifestyle-card">
+                    <i class="fas fa-water icon-gold"></i>
+                    <h4>Waterfront Living</h4>
+                    <p>Minutes from pristine beaches & marinas</p>
+                </div>
+                <div class="lifestyle-card">
+                    <i class="fas fa-utensils icon-gold"></i>
+                    <h4>Culinary Paradise</h4>
+                    <p>From Caribbean fusion to Michelin-starred dining</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW: Market Report Teaser Section -->
+    <section class="market-report-section">
+        <div class="report-card">
+            <div class="report-icon">
+                <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="report-content">
+                <h3>February Market Pulse</h3>
+                <p>Luxury inventory is moving fast in North Miami & Fort Lauderdale. Waterfront properties are seeing
+                    15% appreciation year-over-year, with elite buyers seeking privacy and lifestyle amenities.</p>
+                <p class="report-cta-text">Want a personalized market analysis for your dream neighborhood?</p>
+                <a href="#" class="btn-report"
+                    onclick="document.querySelector('.generator-section').scrollIntoView({behavior: 'smooth'}); return false;">Get
+                    Your Custom Report</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Community & Culture -->
+    <section class="culture-section">
+        <h3 class="section-heading">Culture & Community</h3>
+        <div class="culture-grid">
+            <div class="culture-item">
+                <i class="fas fa-music icon-lavender"></i>
+                <h4>Sounds of Our Heritage</h4>
+                <p>Celebrate Caribbean & Haitian-American culture with live Kompa and art exhibitions this month at the
+                    Cultural Complex.</p>
+            </div>
+            <div class="culture-item">
+                <i class="fas fa-utensils icon-lavender"></i>
+                <h4>Culinary Excellence</h4>
+                <p>Highlighting Chef Jean's new fusion pop-up in Wynwood—elevating traditional flavors to Michelin
+                    standards.</p>
+            </div>
+        </div>
+        <p class="culture-subtext">Supporting local culture while elevating lifestyle.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="agent-footer">
+        <div class="footer-profile">
+            <img src="elizabeth_portrait.jpg" alt="Elizabeth Jeanty" class="details-portrait">
+            <div class="footer-info">
+                <h4>Curated by Elizabeth Jeanty</h4>
+                <p>Connecting lifestyle, culture, and your future home.</p>
+
+                <div class="contact-block" style="margin: 1.5rem 0; line-height: 1.8;">
+                    <p><i class="fas fa-map-marker-alt" style="color: #D4AF37; margin-right: 8px;"></i> 1021 NE 35th
+                        Street, Oakland Park, FL, 33334</p>
+                    <p><i class="fas fa-phone" style="color: #D4AF37; margin-right: 8px;"></i> 305-370-9004</p>
+                    <p><i class="fas fa-envelope" style="color: #D4AF37; margin-right: 8px;"></i> <a
+                            href="mailto:elizabethmovesmiami@gmail.com"
+                            style="color: white; text-decoration: none;">elizabethmovesmiami@gmail.com</a></p>
+                </div>
+
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <button class="btn-outline">Schedule Consultation</button>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
